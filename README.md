@@ -66,7 +66,7 @@ export default TODO_API_URL;
 
 This allows switching between environments (mock, local backend, or production) by changing the value in one place.
 
-Mock API Mode: this is its cruurent setup
+Mock API Mode: this is its current setup
 
 The app currently uses a mock API located at:
 

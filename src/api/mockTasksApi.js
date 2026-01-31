@@ -9,7 +9,7 @@ let mockTasks = [
     priority: "medium",
   },
 ];
-
+// getTasks/GET
 export function getTasks() {
   return new Promise((resolve) => {
     setTimeout(() => {
@@ -17,7 +17,9 @@ export function getTasks() {
     }, 800);
   });
 }
-// create
+
+
+// create/POST
 export function createTask(task) {
   return new Promise((resolve) => {
     setTimeout(() => {
@@ -27,7 +29,8 @@ export function createTask(task) {
     }, 600);
   });
 }
-// update
+
+// update/PUT
 export function updateTask(id, updates) {
   return new Promise((resolve) => {
     setTimeout(() => {
@@ -38,7 +41,7 @@ export function updateTask(id, updates) {
     }, 500);
   });
 }
-// delete
+// delete/DELETE
 export function deleteTask(id) {
   return new Promise((resolve) => {
     setTimeout(() => {
